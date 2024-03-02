@@ -1,0 +1,15 @@
+Sitemap: https://neutralstack.io/sitemap.xml
+Sitemap: https://www.neutralstack.io/sitemap.xml
+
+
+# Block all crawlers for /newsletter
+User-agent: *
+Disallow: /newsletter
+
+# Block all crawlers for /newsletter
+User-agent: *
+Disallow: /logout
+
+# Allow all crawlers
+User-agent: *
+Allow: /
